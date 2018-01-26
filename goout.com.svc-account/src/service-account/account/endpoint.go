@@ -17,7 +17,7 @@ type bookCargoRequest struct {
 	ArrivalDeadline time.Time
 }
 
-//购物车的响应数据ff
+//购物车的响应数据1
 type bookCargoResponse struct {
 	ID  cargo.TrackingID `json:"tracking_id,omitempty"`
 	Err error            `json:"error,omitempty"`
