@@ -15,6 +15,6 @@ func InitDB() (*gorm.DB, error) {
 		db.Model(&PostTag{}).AddUniqueIndex("uk_post_tag", "post_id", "tag_id")
 		return db, err
 	}
-	//ddd
+	//ddfgs
 	return nil, err
 }
